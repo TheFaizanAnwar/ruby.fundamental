@@ -45,7 +45,10 @@ end
 
 # Solution
 
-# With this refactor we’ve made it possible to add new parsers without changing any code. Any additional behavior will only require the addition of a new handler. This makes our FileParser reusable and in many cases will keep us in compliance with the Single Responsibility Principle as well by encouraging us to create smaller more focused classes.
+# With this refactor we’ve made it possible to add new parsers without changing any code. 
+# Any additional behavior will only require the addition of a new handler. This makes our 
+# FileParser reusable and in many cases will keep us in compliance with the 
+# Single Responsibility Principle as well by encouraging us to create smaller more focused classes.
 
 class FileParser
   attr_reader :parser
